@@ -31,7 +31,7 @@ class ImageCheck implements Check {
    _isPublicS3ObjectAvailable = async (url: string): Promise<boolean> => {
     try {
       return faker.datatype.boolean({ probability: 0.9});
-      // howItShouldWork, but for test we will mock it
+      //TODO how It Should Work, but for test we will mock it
       // const response = await fetch(url, { method: 'HEAD' });
       // return response.ok
       // of if we have access to the s3 bucket we can use S3 lib for it by checking metadata of the object

@@ -1,4 +1,4 @@
-// I prefer to use my own DTO and Models instead of mongoose, but for home task it is ok
+//TODO: I prefer to use my own DTO and Models instead of mongoose, but for home task it is ok
 import { Schema, model, Document } from 'mongoose';
 import { Expense, STATUS } from '../types';
 
@@ -6,7 +6,6 @@ interface IExpenseModel extends Document, Expense {}
 
 const ExpenseSchema = new Schema<IExpenseModel>(
   {
-    // fileId: { type: String, required: true, index: true },
     expenseId: { type: String, required: true, index: true },
     reportId: { type: Number, required: true, index: true },
     status: {
