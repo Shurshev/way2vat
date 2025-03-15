@@ -1,0 +1,28 @@
+{
+  "name": "way2vat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/app.ts",
+    "generate_example": "node src/csvGenerator.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shurshev@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "csv-parse": "^5.6.0",
+    "csv-stringify": "^6.5.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "invariant": "^2.2.4",
+    "mongoose": "^8.12.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/invariant": "^2.2.37",
+    "ts-node": "^10.9.2"
+  }
+}

@@ -1,0 +1,17 @@
+# Build outputs
+dist
+build
+coverage
+src/__generated__
+
+# Dependencies
+node_modules
+
+# Specific file types
+*.min.js
+*.map
+
+# Package files
+package-lock.json
+yarn.lock
+

@@ -1,0 +1,1 @@
+export const AllowedCompanies = ['Company A', 'Company B', 'Company C'];
