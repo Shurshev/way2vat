@@ -46,10 +46,10 @@ npm run dev
 ## 📡 API Endpoints
 The system exposes the following API endpoints via an **Express.js** server:
 
-| Method | Endpoint       | Description |
-|--------|----------------|-------------|
-| `POST` | `/processFile` | Initiates processing of the CSV file |
-| `GET`  | `/summary`     | Retrieves a real-time summary of expenses and reports |
-| `GET`  | `/expense/:id` | Fetches details of a specific expense |
+| Method | Endpoint       | Description | CURL                                                                                                   |
+|--------|----------------|-------------|--------------------------------------------------------------------------------------------------------|
+| `POST` | `/processFile` | Initiates processing of the CSV file | curl --location 'host:port/processFile' --header 'Content-Type: text/csv' --data-binary 'path-to-file' |
+| `GET`  | `/summary`     | Retrieves a real-time summary of expenses and reports |                                                                                                        |
+| `GET`  | `/expense/:id` | Fetches details of a specific expense |                                                                                                        |
 
 
