@@ -4,10 +4,15 @@ This repository provides a **Proof of Concept** for a CSV-based expense processi
 It demonstrates an efficient way to parse and process large CSV files using **Node.js** and **MongoDB**
 
 🔮 Future Improvements
+
 1️⃣ Handle network & database errors properly.
+
 2️⃣ Implement checkpoint recovery for file processing.
+
 3️⃣ Consider message brokers & workers for scalability.
+
 4️⃣ Review TODOs in the codebase.
+
 
 ## 🚀 Getting Started
 
